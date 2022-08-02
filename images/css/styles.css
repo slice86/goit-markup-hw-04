@@ -1,0 +1,215 @@
+:root {
+    --primary-text-color: #757575;
+    --accent-color: #2196f3;
+    --button-hover-color: #188ce8;
+  }
+  
+  body {
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #212121;
+  }
+  /*------------------------------header----------------------------------*/
+  
+  .logo {
+    color: var(--accent-color);
+    font-family: Raleway;
+  }
+  
+  .logo-header {
+    color: black;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+  }
+  .contacts {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .nav-list {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
+  .nav-list .nav-link.current {
+    color: #2196f3;
+  }
+  
+  .nav-link {
+    color: #212121;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--accent-color);
+  }
+  
+  .contacts:hover,
+  .contacts:focus {
+    color: var(--accent-color);
+  }
+  
+  /* ----------------------------hero----------------------------*/
+  .hero {
+    background-color: #2f303a;
+  }
+  .hero-text {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  .button-hero {
+    background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+  .button-hero:hover,
+  .button-hero:focus {
+    background-color: var(--button-hover-color);
+  }
+  /*---------------------------- benefits----------------------------*/
+  
+  .hidden {
+    visibility: hidden;
+  }
+  .benefits-name {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+  }
+  .benefits-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
+  
+  /*-----------------------------work--------------------------------*/
+  .work-text {
+    color: #212121;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  /*-----------------------------unit----------------------------------*/
+  
+  .unit {
+    background-color: #f5f4fa;
+  }
+  
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+  }
+  
+  .unit-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+  
+    color: var(--primary-text-color);
+  }
+  /*----------------------------footer---------------------------------*/
+  footer {
+    background-color: #2f303a;
+    color: var(--accent-color);
+  }
+  .logo-footer {
+    color: #ffffff;
+    font-family: Raleway;
+  }
+  .footer-adress {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  .footer-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  /*---------------portfolio.work-type--------------------------*/
+  
+  .button-main-link:hover,
+  .button-main-link:focus {
+    background-color: var(--accent-color);
+    color: #ffffff;
+  }
+  .button-main-link {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
+  .example-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+  }
+  .example-text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+  }
