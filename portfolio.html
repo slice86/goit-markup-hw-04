@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студія</title>
+    <title>Студия</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,24 +26,30 @@
             </li>
             <li>
               <a class="nav-link link current" href="./portfolio.html"
-                >Портфоліо</a
+                >Портфолио</a
               >
             </li>
             <li>
-              <a class="nav-link link" href="">Контакти</a>
+              <a class="nav-link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
         <ul class="contacts-list list">
           <li>
-            <a class="contacts-item link" href="mailto:info@defstidio.com"
-              >info@defstidio.com</a
+            <a class="contacts-item link" href="mailto:info@defstidio.com">
+              <svg class="contacts-icon">
+                <use href="./images/symbol-defs.svg#icon-envelope-hover-1"></use>
+              </svg>
+              info@defstidio.com</a
             >
           </li>
           <li>
-            <a class="contacts-item link" href="tel:+380961111111"
-              >+380961111111</a
-            >
+            <a class="contacts-item link" href="tel:+380961111111">
+              <svg class="contacts-icon-tel">
+                <use href="./images/symbol-defs.svg#icon-Vector-10"></use>
+              </svg>
+              +380961111111
+            </a>
           </li>
         </ul>
       </div>
@@ -59,10 +65,10 @@
               </button>
             </li>
             <li class="button-filter-item">
-              <button class="button-main-link" type="button">Веб-сайти</button>
+              <button class="button-main-link" type="button">Веб-сайты</button>
             </li>
             <li class="button-filter-item">
-              <button class="button-main-link" type="button">Додатки</button>
+              <button class="button-main-link" type="button">Приложения</button>
             </li>
             <li class="button-filter-item">
               <button class="button-main-link" type="button">Дизайн</button>
@@ -109,7 +115,7 @@
                 />
                 <div class="description-card">
                   <h2 class="example-title">Ресторан Seafood</h2>
-                  <p class="example-text">Додаток</p>
+                  <p class="example-text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -121,7 +127,7 @@
                   alt="prime"
                 />
                 <div class="description-card">
-                  <h2 class="example-title">Проєкт Prime</h2>
+                  <h2 class="example-title">Проект Prime</h2>
                   <p class="example-text">Маркетинг</p>
                 </div>
               </a>
@@ -134,8 +140,8 @@
                   alt="boxes"
                 />
                 <div class="description-card">
-                  <h2 class="example-title">Проєкт Boxes</h2>
-                  <p class="example-text">Додаток</p>
+                  <h2 class="example-title">Проект Boxes</h2>
+                  <p class="example-text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -160,7 +166,7 @@
                   alt="limited"
                 />
                 <div class="description-card">
-                  <h2 class="example-title">Видання Limited Edition</h2>
+                  <h2 class="example-title">Издание Limited Edition</h2>
                   <p class="example-text">Дизайн</p>
                 </div>
               </a>
@@ -183,7 +189,7 @@
                 />
                 <div class="description-card">
                   <h2 class="example-title">Growing Business</h2>
-                  <p class="example-text">Додаток</p>
+                  <p class="example-text">Приложение</p>
                 </div>
               </a>
             </li>
@@ -193,26 +199,61 @@
     </main>
     <footer>
       <div class="container">
-        <a class="logo link" href="./index.html"
-          >Web<span class="logo-footer">Studio</span></a
-        >
-        <ul class="footer-contacts list">
-          <li class="footer-item">
-            <a class="footer-adress link" href=""
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="footer-link link" href="mailto:info@defstidio.com"
-              >info@defstidio.com</a
-            >
-          </li>
-          <li class="footer-item">
-            <a class="footer-link link" href="tel:+380961111111"
-              >+380961111111</a
-            >
-          </li>
-        </ul>
+        <div class="footer-main">
+          <a class="logo link" href="./index.html"
+            >Web<span class="logo-footer">Studio</span></a
+          >
+          <ul class="footer-contacts list">
+            <li class="footer-item">
+              <a class="footer-adress link" href=""
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link link" href="mailto:info@defstidio.com"
+                >info@defstidio.com</a
+              >
+            </li>
+            <li class="footer-item">
+              <a class="footer-link link" href="tel:+380961111111"
+                >+380961111111</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-socialas">
+          <p class="footer-social-text">Присоединяйтесь</p>
+          <ul class="footer-button-list list">
+            <li class="footer-button-item">
+              <button class="footer-button" href="">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-instagram-1"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="footer-button-item">
+              <a class="footer-button" href="">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-button-item">
+              <a class="footer-button" href="">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-Facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-button-item">
+              <a class="footer-button" href="">
+                <svg class="footer-icon" width="20" height="20">
+                  <use href="./images/symbol-defs.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
