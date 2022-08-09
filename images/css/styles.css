@@ -159,7 +159,7 @@
   
   /* ----------------------------hero----------------------------*/
   
-  .image {
+  .over {
     height: 600px;
     max-width: 1600px;
     margin-left: auto;
@@ -167,12 +167,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../ima/heroimage.jpg);
+     
   }
   .hero {
     text-align: center;
