@@ -86,6 +86,7 @@
     color: black;
   }
   
+  .
   .contacts-item {
     display: flex;
     align-items: center;
@@ -136,7 +137,7 @@
   
   .contacts-item:hover,
   .contacts-item:focus {
-    color: var(--accent-color);
+    color:#2196f3;
   }
   
   .contacts-icon {
@@ -150,11 +151,11 @@
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: currentColor;
+    fill: var(--primary-text-color);
   }
   
   .contacts-icon {
-    fill: currentColor;
+    fill: ;
   }
   
   /* ----------------------------hero----------------------------*/
@@ -373,7 +374,7 @@
     align-items: center;
     border-radius: 50%;
     border: 1px solid transparent;
-    color: #afb1b8;
+    color: #FFFFFF
   }
   
   .unit-button:hover,
@@ -384,6 +385,7 @@
   
   .button-icon {
     fill: currentColor;
+  
   }
   
   .unit-button-item:not(:last-child) {
@@ -423,6 +425,9 @@
     height: 60px;
     fill: currentColor;
   }
+.icone {
+  fill: #AFB1B8;
+}
   
   /*----------------------------footer---------------------------------*/
   footer {
@@ -511,6 +516,7 @@ color: #FFFFFF;
     align-items: center;
     border-radius: 50%;
     color: #ffffff;
+    fill-opacity: var(--accent-color); ;
   }
   
   .footer-button:hover {
@@ -521,8 +527,8 @@ color: #FFFFFF;
     outline: var(--accent-color);
   }
   
-  .footer-icon {
-    fill: #ffffff;
+  .footer-icone {
+    fill:#ffffff ;
   }
   
   .footer-button-item:not(:last-child) {
